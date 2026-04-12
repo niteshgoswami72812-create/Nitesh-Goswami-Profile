@@ -1,5 +1,5 @@
 
-const textToType = "Hi there 👋 I'm Nitesh Goswami !";
+const textToType = "Hi there 👋 I'm Nitesh Goswami 😎";
 const typingSpeed = 100; 
 let charIndex = 0;
 
