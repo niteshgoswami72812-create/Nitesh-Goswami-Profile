@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Nitesh</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Welcome Splash Screen -->
+    <div id="welcome-screen">
+        <div class="welcome-content">
+            <h1 class="welcome-title">Hello, World! <span class="wave">👋</span></h1>
+            <p class="welcome-subtitle">Python Full Stack Developer</p>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Floating Background Orbs -->
+    <div class="background-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
     <div class="container">
         <header>
             <div class="profile-img-container">
@@ -14,12 +31,19 @@
                 <img src="./IMG_6509.JPG" alt="Nitesh Goswami" id="profile-img">
             </div>
             <h1 id="typewriter"></h1>
-            <p class="subtitle">Passionate developer and lifelong learner who loves building meaningful software projects and exploring new technologies.</p>
+            <p class="subtitle"><span class="highlight">Python Full Stack Developer</span> | Passionate about building scalable applications and exploring new technologies.</p>
+            
+            <div class="social-links">
+                <a href="mailto:niteshgoswami72812@gmail.com" target="_blank" class="btn email"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://instagram.com/mr._goswami____" target="_blank" class="btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/niteshgoswami72812-create" target="_blank" class="btn github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/nitesh-goswami-b09324312/" target="_blank" class="btn linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
         </header>
 
         <main>
             <section class="card">
-                <h2>🔭 I'm currently working on</h2>
+                <h2><i class="fas fa-laptop-code"></i> 🔭 I'm currently working on</h2>
                 <ul>
                     <li>Developing web applications with modern front-end frameworks</li>
                     <li>Expanding my skills in full-stack development</li>
@@ -28,7 +52,7 @@
             </section>
 
             <section class="card">
-                <h2>🌱 I'm currently learning</h2>
+                <h2><i class="fas fa-seedling"></i> 🌱 I'm currently learning</h2>
                 <ul>
                     <li>HTML, CSS, JavaScript</li>
                     <li>Python, Django, Figma</li>
@@ -37,25 +61,31 @@
             </section>
 
             <section class="card">
-                <h2>💻 Tech Stack & Tools</h2>
+                <h2><i class="fas fa-layer-group"></i> 💻 Tech Stack & Tools</h2>
                 <div class="skills">
                     <div class="skill-category">
                         <h3>Frontend</h3>
-                        <p>Figma, HTML, CSS, JavaScript, React JS</p>
+                        <div class="tags">
+                            <span>Figma</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React JS</span>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h3>Backend</h3>
-                        <p>Core Python, Adv. Python, MySQL, Django, REST API/DRF</p>
+                        <div class="tags">
+                            <span>Core Python</span><span>Adv. Python</span><span>MySQL</span><span>Django</span><span>REST API/DRF</span>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h3>Tools</h3>
-                        <p>Git, GitHub, VS Code, Agile Scrum</p>
+                        <div class="tags">
+                            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Agile Scrum</span>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section class="card">
-                <h2>🤝 I'm looking to collaborate on</h2>
+                <h2><i class="fas fa-handshake"></i> 🤝 I'm looking to collaborate on</h2>
                 <ul>
                     <li>Beginner-friendly open source projects</li>
                     <li>Web development projects (front-end or full-stack)</li>
@@ -64,19 +94,14 @@
             </section>
 
             <section class="card fun-fact">
-                <h2>⚡ Fun Fact</h2>
+                <h2><i class="fas fa-bolt"></i> ⚡ Fun Fact</h2>
                 <p>I drink more coffee than code sometimes... but only sometimes ☕💻</p>
             </section>
         </main>
-    </div>
 
-    <!-- Watermark Section -->
-    <div class="watermark">
-        Created by Nitesh Goswami <br>
-        Insta: @mr._goswami____ | Email: niteshgoswami72812@gmail.com <br>
-        Phone: +919753856359 <br>
-        Linkedin: https://www.linkedin.com/in/nitesh-goswami-b09324312/ <br>
-        GitHub: niteshgoswami72812-create
+        <footer>
+            <p>Created by Nitesh Goswami 2026</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
